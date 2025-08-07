@@ -10,16 +10,19 @@ class Mascotas extends Model
   protected $table = 'mascotas';
 
   protected $fillable = [
-    'nombre',
+    'codigo', 
     'id_cliente',
+    'nombre',
     'edad',
     'peso',
     'foto',
-    'detalles',
     'especie',
     'raza',
     'sexo',
+    'detalles'
   ];
+
+
 
   public $timestamps = false;
 
